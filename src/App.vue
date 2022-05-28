@@ -1,10 +1,14 @@
 <template>
   <div>
     <nav>
-      <router-link :to="{name:'base'}">Home</router-link>|
+      <!-- <router-link :to="{name:'base'}">Home</router-link>|
       <router-link :to="{name:'about'}">About</router-link>|
       <router-link :to="{path:'/home/abouts'}">abouts</router-link>｜
-      <router-link to="/home/SecIndex1">abouts</router-link>
+      <router-link to="/home/SecIndex1">abouts</router-link> -->
+      <router-link :to="{name:'base'}">Home</router-link>|
+      <router-link :to="{name:'about'}">About</router-link>|
+      <router-link :to="{name:'SecIndex1'}">SecIndex1</router-link>｜
+      <router-link :to="{name:'SecIndex2'}">SecIndex1</router-link>｜
     </nav>
     <router-view />
   </div>

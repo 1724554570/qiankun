@@ -11,7 +11,7 @@ export default defineComponent({
   name: "SecIndex1",
   components: {},
   setup() {
-    console.log("HomeContainer");
+    console.log("SecIndex1_HomeContainer");
   },
 });
 </script>
